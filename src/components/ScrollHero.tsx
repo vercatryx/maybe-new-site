@@ -66,14 +66,7 @@ export default function ScrollHero() {
 
   return (
     <div ref={containerRef} className="relative w-full h-screen bg-white overflow-hidden">
-      <div className="absolute inset-0 flex flex-col items-start justify-center top-[-40%] z-10 pointer-events-none p-12">
-        <h1 className="text-black text-5xl md:text-8xl font-bold tracking-tighter drop-shadow-2xl text-left bg-white/70 p-4 rounded-3xl backdrop-blur-sm border border-black/10">
-          Bring order <br/> to chaos.
-        </h1>
-        <p className="text-zinc-800 mt-6 text-2xl max-w-lg text-left font-medium drop-shadow-xl bg-white/70 p-4 rounded-2xl backdrop-blur-sm border border-black/10">
-          Scroll down to watch your workflows automate.
-        </p>
-      </div>
+
 
       <canvas
         ref={canvasRef}
