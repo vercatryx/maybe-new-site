@@ -35,6 +35,7 @@ export default function ScrollHero() {
     images[0].onload = render;
 
     function render() {
+      if (!canvas || !ctx) return;
       if (images[sequence.frame] && images[sequence.frame].complete) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(images[sequence.frame], 0, 0, canvas.width, canvas.height);
