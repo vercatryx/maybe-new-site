@@ -50,7 +50,7 @@ export default function ScrollHero() {
         trigger: containerRef.current,
         pin: true,
         start: "top top",
-        end: "+=100%",
+        end: "+=200%",
         scrub: 0.5,
       }
     });
